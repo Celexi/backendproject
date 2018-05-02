@@ -1,0 +1,50 @@
+{
+  "video1": {
+    "ID": "1",
+    "UPLOADER": "JOANA",
+    "TITLE": "Gatos Loucos",
+    "DESCRIPTION": "Gatos malucos",
+    "LENGHT": "30",
+    "URL": "HTTP://gatosloucos.com",
+    "VIEWS": "20",
+    "COMMENTS": [
+      "Fixe",
+      "LOL"
+    ],
+    "TAGS": [
+      "GATOS",
+      "CATS"
+    ]
+  },
+  "video2": {
+    "ID": "2",
+    "UPLOADER": "Joao",
+    "TITLE": "viagem fixe",
+    "DESCRIPTION": "viagem ficha a patagonia",
+    "LENGHT": "40",
+    "URL": "HTTP://viagemfixe.com",
+    "VIEWS": "40",
+    "COMMENTS": [
+      "porreiro",
+      "tambem quero ir la"
+    ],
+    "TAGS": [
+      "VIAGEM",
+      "PATAGONIA"
+    ]
+  },
+  "video3":{
+
+    "ID" : "3",
+    "UPLOADER": "JADER",
+    "TITLE": "Retro Gaming",
+    "DESCRIPTION": "Retro Gaming with my pals",
+    "LENGHT" : "45",
+    "URL" : "HTTP://retrogaming.com",
+    "VIEWS": "2000",
+    "COMMENTS":  ["porreiro, como fizeste o arcade?", "espetaculo", "uau"],
+    "TAGS":["ARCADE GAMING", "RETRO GAMING"]
+
+  }
+
+}
