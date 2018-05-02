@@ -30,11 +30,9 @@
     ],
     "TAGS": [
       "VIAGEM",
-      "PATAGONIA"
-    ]
+      "PATAGONIA"]
   },
   "video3":{
-
     "ID" : "3",
     "UPLOADER": "JADER",
     "TITLE": "Retro Gaming",
@@ -44,7 +42,5 @@
     "VIEWS": "2000",
     "COMMENTS":  ["porreiro, como fizeste o arcade?", "espetaculo", "uau"],
     "TAGS":["ARCADE GAMING", "RETRO GAMING"]
-
   }
-
 }

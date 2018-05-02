@@ -43,7 +43,6 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
+
 
 ;

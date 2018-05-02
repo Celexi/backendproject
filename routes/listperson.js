@@ -1,12 +1,13 @@
 var express = require('express');
 var router = express.Router();
 const fs = require('fs');
+const uuidv1 = require('uuid/v1');
 
 
-router.get('/listperson', function(req, response){
-    var file = fs.readFileSync("videos.json");
-    response.json(file);
 
+router.get('/', function(req, response){
+    var file = fs.readFileSync("videos.json" , 'utf8');
+    response.json(JSON.parse(file));
 })
 
 module.exports = router;
