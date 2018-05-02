@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 
 router.get('/listPerson', function(req, response){
-    var file = fs.readFileSync("C:\\Users\\Celex\\backendproject\\code\\backendproject\\videos.json");
+    var file = fs.readFileSync("videos.json");
     response.send(file);
 
 }
