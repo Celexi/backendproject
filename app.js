@@ -7,7 +7,7 @@ const fs = require('fs');
 var bodyParser = require('body-parser');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var listpersonRouter= require('routes/listperson');
+var listpersonRouter= require('./routes/listperson');
 
 var app = express();
 
