@@ -4,20 +4,14 @@ const fs = require('fs');
 const uuidv1 = require('uuid/v1');
 
 
-router.get('/', function (req, response) {
-    var pessoa = req.body;
-    var id = uuidv1();
-    var file = fs.readFileSync("personsbak.json" , 'utf8');
-    var jsonData = JSON.parse(file);
-    pessoa.id = id;
-    jsonData["video" + id] = pessoa;
+router.post('/', function (req, response) {
+    let file = fs.readFileSync("videos.json" , 'utf8');
+    let json = JSON.parse(file);
+    for (let [k, v] of Object.entries(json)) {
+        v.ID = uuidv1();
+    }
 
-
-    let data = JSON.stringify(pessoa, null, 2);
-    jsonData[pessoa.id].push(data, (err) => {
-        if (err) throw err;
-        console.log('Data written to file');
-    });
-})
+    fs.writeFileSync(JSON.stringify(json));
+});
 
 module.exports = router;
