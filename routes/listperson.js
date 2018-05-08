@@ -5,7 +5,7 @@ const uuidv1 = require('uuid/v1');
 
 
 
-router.get('/', function(req, response){
+router.get('/', function(req, response, next){
     var file = fs.readFileSync("videos.json" , 'utf8');
     response.json(JSON.parse(file));
 })
