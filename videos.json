@@ -1,6 +1,6 @@
 {
-  "video1": {
-    "ID": "1",
+  "8d42a4d0-530f-11e8-95b7-8920445fdff0": {
+    "ID": "8d42a4d0-530f-11e8-95b7-8920445fdff0",
     "UPLOADER": "JOANA",
     "TITLE": "Gatos Loucos",
     "DESCRIPTION": "Gatos malucos",
@@ -16,8 +16,8 @@
       "CATS"
     ]
   },
-  "video2": {
-    "ID": "2",
+  "2": {
+    "ID": "8d42a4d1-530f-11e8-95b7-8920445fdff0",
     "UPLOADER": "Joao",
     "TITLE": "viagem fixe",
     "DESCRIPTION": "viagem ficha a patagonia",
@@ -30,17 +30,25 @@
     ],
     "TAGS": [
       "VIAGEM",
-      "PATAGONIA"]
+      "PATAGONIA"
+    ]
   },
-  "video3":{
-    "ID" : "3",
+  "3": {
+    "ID": "8d42a4d2-530f-11e8-95b7-8920445fdff0",
     "UPLOADER": "JADER",
     "TITLE": "Retro Gaming",
     "DESCRIPTION": "Retro Gaming with my pals",
-    "LENGHT" : "45",
-    "URL" : "HTTP://retrogaming.com",
+    "LENGHT": "45",
+    "URL": "HTTP://retrogaming.com",
     "VIEWS": "2000",
-    "COMMENTS":  ["porreiro, como fizeste o arcade?", "espetaculo", "uau"],
-    "TAGS":["ARCADE GAMING", "RETRO GAMING"]
+    "COMMENTS": [
+      "porreiro, como fizeste o arcade?",
+      "espetaculo",
+      "uau"
+    ],
+    "TAGS": [
+      "ARCADE GAMING",
+      "RETRO GAMING"
+    ]
   }
 }

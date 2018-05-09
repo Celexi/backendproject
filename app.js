@@ -7,8 +7,9 @@ const fs = require('fs');
 var bodyParser = require('body-parser');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var listpersonRouter= require('./routes/listperson');
-var addpersonRouter = require('./routes/addperson');
+var listvideosRouter= require('./routes/listvideos');
+var addvideoRouter = require('./routes/addvideo');
+var deletevideoRouter = require('./routes/deletevideo')
 
 var app = express();
 
@@ -24,8 +25,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/listperson', listpersonRouter);
-app.use('/addperson', addpersonRouter);
+app.use('/listvideos', listvideosRouter);
+app.use('/addvideo', addvideoRouter);
+app.use('/deletevideo', deletevideoRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -47,4 +49,3 @@ module.exports = app;
 
 
 
-;
