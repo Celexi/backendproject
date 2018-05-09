@@ -1,22 +1,5 @@
-{
-  "8d42a4d0-530f-11e8-95b7-8920445fdff0": {
-    "ID": "8d42a4d0-530f-11e8-95b7-8920445fdff0",
-    "UPLOADER": "JOANA",
-    "TITLE": "Gatos Loucos",
-    "DESCRIPTION": "Gatos malucos",
-    "LENGHT": "30",
-    "URL": "HTTP://gatosloucos.com",
-    "VIEWS": "20",
-    "COMMENTS": [
-      "Fixe",
-      "LOL"
-    ],
-    "TAGS": [
-      "GATOS",
-      "CATS"
-    ]
-  },
-  "2": {
+[
+  {
     "ID": "8d42a4d1-530f-11e8-95b7-8920445fdff0",
     "UPLOADER": "Joao",
     "TITLE": "viagem fixe",
@@ -33,7 +16,7 @@
       "PATAGONIA"
     ]
   },
-  "3": {
+  {
     "ID": "8d42a4d2-530f-11e8-95b7-8920445fdff0",
     "UPLOADER": "JADER",
     "TITLE": "Retro Gaming",
@@ -51,4 +34,4 @@
       "RETRO GAMING"
     ]
   }
-}
+]

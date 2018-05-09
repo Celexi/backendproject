@@ -10,6 +10,8 @@ var usersRouter = require('./routes/users');
 var listvideosRouter= require('./routes/listvideos');
 var addvideoRouter = require('./routes/addvideo');
 var deletevideoRouter = require('./routes/deletevideo')
+var findvideoidRouter = require('./routes/findvideoid')
+var findbyuploaderRouter = require('./routes/findbyuploader');
 
 var app = express();
 
@@ -28,6 +30,8 @@ app.use('/users', usersRouter);
 app.use('/listvideos', listvideosRouter);
 app.use('/addvideo', addvideoRouter);
 app.use('/deletevideo', deletevideoRouter);
+app.use('/findvideoid', findvideoidRouter);
+app.use('/findbyuploader', findvideoidRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
